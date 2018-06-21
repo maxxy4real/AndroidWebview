@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: WebviewTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 22.392 sec <<< FAILURE! - in WebviewTest
+AndroidWebView(WebviewTest)  Time elapsed: 22.392 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21.69 seconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Maxwells-MBP', ip: '2a02:c7f:a0a:f600:31de:d226:f546:78c4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: driver.version: EnhancedAndroidDriver
+	at WebviewTest.AndroidWebView(WebviewTest.java:42)
+
+AndroidWebView(WebviewTest)  Time elapsed: 22.392 sec  <<< ERROR!
+java.lang.NullPointerException
+	at WebviewTest.TearDown(WebviewTest.java:54)
+
